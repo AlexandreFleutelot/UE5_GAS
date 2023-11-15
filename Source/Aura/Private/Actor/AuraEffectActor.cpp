@@ -14,6 +14,7 @@ AAuraEffectActor::AAuraEffectActor()
 	PrimaryActorTick.bCanEverTick = false;
 
 	SetRootComponent(CreateDefaultSubobject<USceneComponent>("SceneRoot"));
+	
 }
 
 
@@ -21,6 +22,7 @@ AAuraEffectActor::AAuraEffectActor()
 void AAuraEffectActor::BeginPlay()
 {
 	Super::BeginPlay();
+	UE_LOG(LogTemp, Display, TEXT("VS2022 test"));
 	
 }
 
