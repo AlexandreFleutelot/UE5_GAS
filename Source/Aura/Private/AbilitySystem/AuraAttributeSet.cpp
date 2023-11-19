@@ -10,8 +10,8 @@
 
 UAuraAttributeSet::UAuraAttributeSet()
 {
-	InitHealth(10.f);
-	InitMana(15.f);
+	//InitHealth(10.f);
+	//InitMana(15.f);
 }
 
 // Where to register variable for replication
